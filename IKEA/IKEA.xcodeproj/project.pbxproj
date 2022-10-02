@@ -99,13 +99,8 @@
 		B846C65328E958CB0089B6FC /* IKEA */ = {
 			isa = PBXGroup;
 			children = (
-				B846C65428E958CB0089B6FC /* AppDelegate.swift */,
-				B846C65628E958CB0089B6FC /* SceneDelegate.swift */,
-				B846C65828E958CB0089B6FC /* ViewController.swift */,
-				B846C65A28E958CB0089B6FC /* Main.storyboard */,
-				B846C65D28E958CC0089B6FC /* Assets.xcassets */,
-				B846C65F28E958CC0089B6FC /* LaunchScreen.storyboard */,
-				B846C66228E958CC0089B6FC /* Info.plist */,
+				B89EE52B28E961BA008FB278 /* Sources */,
+				B89EE52928E96173008FB278 /* Resources */,
 			);
 			path = IKEA;
 			sourceTree = "<group>";
@@ -125,6 +120,59 @@
 				B846C67728E958CC0089B6FC /* IKEAUITestsLaunchTests.swift */,
 			);
 			path = IKEAUITests;
+			sourceTree = "<group>";
+		};
+		B89EE52928E96173008FB278 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B846C66228E958CC0089B6FC /* Info.plist */,
+				B846C65D28E958CC0089B6FC /* Assets.xcassets */,
+				B89EE52A28E96191008FB278 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B89EE52A28E96191008FB278 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B846C65A28E958CB0089B6FC /* Main.storyboard */,
+				B846C65F28E958CC0089B6FC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B89EE52B28E961BA008FB278 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B846C65428E958CB0089B6FC /* AppDelegate.swift */,
+				B846C65628E958CB0089B6FC /* SceneDelegate.swift */,
+				B89EE52E28E961FC008FB278 /* ViewControllers */,
+				B89EE52C28E961DF008FB278 /* Models */,
+				B89EE52D28E961E9008FB278 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B89EE52C28E961DF008FB278 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B89EE52D28E961E9008FB278 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B89EE52E28E961FC008FB278 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B846C65828E958CB0089B6FC /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,7 +487,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8N8K22S85Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IKEA/Info.plist;
+				INFOPLIST_FILE = IKEA/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,7 +515,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8N8K22S85Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IKEA/Info.plist;
+				INFOPLIST_FILE = IKEA/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,7 +530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
