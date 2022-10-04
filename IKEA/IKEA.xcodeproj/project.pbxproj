@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B808DEC828E9DDA10097D93D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808DEC728E9DDA10097D93D /* TabBarViewController.swift */; };
 		B846C65528E958CB0089B6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65428E958CB0089B6FC /* AppDelegate.swift */; };
 		B846C65728E958CB0089B6FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65628E958CB0089B6FC /* SceneDelegate.swift */; };
 		B846C65928E958CB0089B6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65828E958CB0089B6FC /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B808DEC728E9DDA10097D93D /* TabBarViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		B846C65128E958CB0089B6FC /* IKEA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B846C65428E958CB0089B6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B846C65628E958CB0089B6FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				B846C65828E958CB0089B6FC /* ViewController.swift */,
+				B808DEC728E9DDA10097D93D /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B808DEC828E9DDA10097D93D /* TabBarViewController.swift in Sources */,
 				B846C65928E958CB0089B6FC /* ViewController.swift in Sources */,
 				B846C65528E958CB0089B6FC /* AppDelegate.swift in Sources */,
 				B846C65728E958CB0089B6FC /* SceneDelegate.swift in Sources */,
