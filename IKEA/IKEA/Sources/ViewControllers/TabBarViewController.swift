@@ -12,14 +12,6 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.selectedIndex = 1
-        
-        setBorderForTabBar()
-    }
-    
-    func setBorderForTabBar() {
-        self.tabBar.layer.borderWidth = 0.4
-        self.tabBar.layer.borderColor = UIColor.lightGray.cgColor
-        self.tabBar.clipsToBounds = true
     }
     
     /*
