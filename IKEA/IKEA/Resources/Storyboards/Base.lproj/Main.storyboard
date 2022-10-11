@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sSX-uf-PHr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sSX-uf-PHr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -34,8 +35,33 @@
                     <view key="view" contentMode="scaleToFill" id="gEf-Me-3wK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qq0-O2-1cq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="nCP-6q-XeC">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nCP-6q-XeC" firstAttribute="width" secondItem="qq0-O2-1cq" secondAttribute="width" id="7S9-qY-0J2"/>
+                                    <constraint firstAttribute="bottom" secondItem="nCP-6q-XeC" secondAttribute="bottom" constant="91" id="Ev7-Nj-crl"/>
+                                    <constraint firstItem="nCP-6q-XeC" firstAttribute="leading" secondItem="qq0-O2-1cq" secondAttribute="leading" id="WfZ-oY-LJX"/>
+                                    <constraint firstAttribute="trailing" secondItem="nCP-6q-XeC" secondAttribute="trailing" id="rXb-Xo-SqO"/>
+                                    <constraint firstItem="nCP-6q-XeC" firstAttribute="top" secondItem="qq0-O2-1cq" secondAttribute="top" id="zCp-ZO-G4L"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xCE-Dz-vcq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="mYY-VI-TEH"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3Ic-kj-0dj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qq0-O2-1cq" firstAttribute="trailing" secondItem="3Ic-kj-0dj" secondAttribute="trailing" id="8VX-qX-MTi"/>
+                            <constraint firstItem="qq0-O2-1cq" firstAttribute="leading" secondItem="3Ic-kj-0dj" secondAttribute="leading" id="IlD-FT-pDP"/>
+                            <constraint firstItem="qq0-O2-1cq" firstAttribute="top" secondItem="gEf-Me-3wK" secondAttribute="top" id="NJK-xg-gME"/>
+                            <constraint firstAttribute="bottom" secondItem="qq0-O2-1cq" secondAttribute="bottom" id="bKD-SI-rOL"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="PGU-sU-V7e">
                         <imageReference key="image" image="text.magnifyingglass" catalog="system" symbolScale="medium"/>
@@ -43,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jWA-Z8-j8W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1506" y="-273"/>
+            <point key="canvasLocation" x="1505.7971014492755" y="-273.21428571428572"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="6ZI-5k-Fcx">
@@ -128,12 +154,12 @@
     </scenes>
     <resources>
         <image name="bag" catalog="system" width="128" height="128"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
-        <image name="house" catalog="system" width="128" height="106"/>
-        <image name="person" catalog="system" width="128" height="117"/>
-        <image name="text.magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="text.magnifyingglass" catalog="system" width="128" height="117"/>
         <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
