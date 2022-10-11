@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +19,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="house" id="0LM-Q5-XLC"/>
+                    <tabBarItem key="tabBarItem" title="" id="0LM-Q5-XLC">
+                        <imageReference key="image" image="house" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,7 +37,9 @@
                         <viewLayoutGuide key="safeArea" id="3Ic-kj-0dj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="search" id="PGU-sU-V7e"/>
+                    <tabBarItem key="tabBarItem" title="" id="PGU-sU-V7e">
+                        <imageReference key="image" image="text.magnifyingglass" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jWA-Z8-j8W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +81,9 @@
                         <viewLayoutGuide key="safeArea" id="PAV-Rd-2v1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="bag" id="aXi-Lo-bpy"/>
+                    <tabBarItem key="tabBarItem" title="" id="aXi-Lo-bpy">
+                        <imageReference key="image" image="bag" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2C-d9-bHT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,7 +99,9 @@
                         <viewLayoutGuide key="safeArea" id="lKO-mj-Jpm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="heart" id="N8y-TO-CMa"/>
+                    <tabBarItem key="tabBarItem" title="" id="N8y-TO-CMa">
+                        <imageReference key="image" image="heart" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyI-lR-x3F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -108,7 +117,9 @@
                         <viewLayoutGuide key="safeArea" id="7gj-tk-7Kf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="person" id="zAC-2z-4jC"/>
+                    <tabBarItem key="tabBarItem" title="" id="zAC-2z-4jC">
+                        <imageReference key="image" image="person" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8s-Ab-mby" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,11 +127,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bag" width="17.333999633789062" height="21.923799514770508"/>
-        <image name="heart" width="19.394500732421875" height="18.525400161743164"/>
-        <image name="house" width="23.31049919128418" height="22.158199310302734"/>
-        <image name="person" width="17.06049919128418" height="18.408199310302734"/>
-        <image name="search" width="19.082000732421875" height="19.267599105834961"/>
+        <image name="bag" catalog="system" width="128" height="128"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="text.magnifyingglass" catalog="system" width="128" height="115"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
