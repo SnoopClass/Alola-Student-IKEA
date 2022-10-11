@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="667" y="-623"/>
         </scene>
-        <!--View Controller-->
+        <!--검색-->
         <scene sceneID="rMp-MF-tD2">
             <objects>
                 <viewController id="aYD-lN-dbA" sceneMemberID="viewController">
@@ -63,13 +63,11 @@
                             <constraint firstAttribute="bottom" secondItem="qq0-O2-1cq" secondAttribute="bottom" id="bKD-SI-rOL"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="PGU-sU-V7e">
-                        <imageReference key="image" image="text.magnifyingglass" catalog="system" symbolScale="medium"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="검색" id="7N9-ma-WK6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jWA-Z8-j8W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1505.7971014492755" y="-273.21428571428572"/>
+            <point key="canvasLocation" x="2415.9420289855075" y="-273.21428571428572"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="6ZI-5k-Fcx">
@@ -87,7 +85,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="fRk-Xt-uEv"/>
-                        <segue destination="aYD-lN-dbA" kind="relationship" relationship="viewControllers" id="g4f-P1-QDj"/>
+                        <segue destination="jou-Yy-tHl" kind="relationship" relationship="viewControllers" id="g4f-P1-QDj"/>
                         <segue destination="cvc-T9-9La" kind="relationship" relationship="viewControllers" id="f0H-gb-eYI"/>
                         <segue destination="4Ts-D6-7m2" kind="relationship" relationship="viewControllers" id="uW9-wt-ATe"/>
                         <segue destination="I1N-Je-agB" kind="relationship" relationship="viewControllers" id="A8R-5Z-G7g"/>
@@ -150,6 +148,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8s-Ab-mby" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="667" y="116"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lw4-ca-HK1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jou-Yy-tHl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="PGU-sU-V7e">
+                        <imageReference key="image" image="text.magnifyingglass" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VvY-BD-p2t">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aYD-lN-dbA" kind="relationship" relationship="rootViewController" id="DOk-KZ-HXI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HRB-Sm-afx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505.7971014492755" y="-273.21428571428572"/>
         </scene>
     </scenes>
     <resources>
