@@ -8,12 +8,27 @@
 import UIKit
 
 class SearchViewController: UIViewController {
+  
+  // MARK: - Properties
+  
+  let searchController = UISearchController()
 
+  // MARK: - View Life Cycle
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    navigationController?.hidesBarsOnSwipe = true
+    setNavigationBar()
+    setNavigationItem()
   }
 
+  func setNavigationBar(){
+    navigationController?.hidesBarsOnSwipe = true
+  }
+  
+  func setNavigationItem(){
+    self.navigationItem.searchController = searchController
+    searchController.searchBar.placeholder = "무엇을 찾고 있나요?"
+  }
 
 }
 
