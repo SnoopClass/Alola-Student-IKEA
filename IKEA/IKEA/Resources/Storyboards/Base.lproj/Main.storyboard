@@ -31,7 +31,7 @@
         <!--검색-->
         <scene sceneID="rMp-MF-tD2">
             <objects>
-                <viewController id="aYD-lN-dbA" sceneMemberID="viewController">
+                <viewController id="aYD-lN-dbA" customClass="SearchViewController" customModule="IKEA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gEf-Me-3wK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,8 +166,8 @@
                         <imageReference key="image" image="text.magnifyingglass" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VvY-BD-p2t">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="VvY-BD-p2t">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

@@ -17,6 +17,7 @@
 		B846C66C28E958CC0089B6FC /* IKEATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C66B28E958CC0089B6FC /* IKEATests.swift */; };
 		B846C67628E958CC0089B6FC /* IKEAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C67528E958CC0089B6FC /* IKEAUITests.swift */; };
 		B846C67828E958CC0089B6FC /* IKEAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C67728E958CC0089B6FC /* IKEAUITestsLaunchTests.swift */; };
+		B88B26F528F62C340089FED8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B26F428F62C340089FED8 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B846C67128E958CC0089B6FC /* IKEAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKEAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B846C67528E958CC0089B6FC /* IKEAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAUITests.swift; sourceTree = "<group>"; };
 		B846C67728E958CC0089B6FC /* IKEAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B88B26F428F62C340089FED8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				B846C65828E958CB0089B6FC /* ViewController.swift */,
 				B808DEC728E9DDA10097D93D /* TabBarViewController.swift */,
+				B88B26F428F62C340089FED8 /* SearchViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88B26F528F62C340089FED8 /* SearchViewController.swift in Sources */,
 				B808DEC828E9DDA10097D93D /* TabBarViewController.swift in Sources */,
 				B846C65928E958CB0089B6FC /* ViewController.swift in Sources */,
 				B846C65528E958CB0089B6FC /* AppDelegate.swift in Sources */,
