@@ -10,7 +10,7 @@
 		B808DEC828E9DDA10097D93D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808DEC728E9DDA10097D93D /* TabBarViewController.swift */; };
 		B846C65528E958CB0089B6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65428E958CB0089B6FC /* AppDelegate.swift */; };
 		B846C65728E958CB0089B6FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65628E958CB0089B6FC /* SceneDelegate.swift */; };
-		B846C65928E958CB0089B6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65828E958CB0089B6FC /* ViewController.swift */; };
+		B846C65928E958CB0089B6FC /* RecentKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C65828E958CB0089B6FC /* RecentKeywordViewController.swift */; };
 		B846C65C28E958CB0089B6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B846C65A28E958CB0089B6FC /* Main.storyboard */; };
 		B846C65E28E958CC0089B6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846C65D28E958CC0089B6FC /* Assets.xcassets */; };
 		B846C66128E958CC0089B6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B846C65F28E958CC0089B6FC /* LaunchScreen.storyboard */; };
@@ -18,6 +18,7 @@
 		B846C67628E958CC0089B6FC /* IKEAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C67528E958CC0089B6FC /* IKEAUITests.swift */; };
 		B846C67828E958CC0089B6FC /* IKEAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846C67728E958CC0089B6FC /* IKEAUITestsLaunchTests.swift */; };
 		B88B26F528F62C340089FED8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B26F428F62C340089FED8 /* SearchViewController.swift */; };
+		B892F43028F85F4200CC61CF /* UISearchBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F42F28F85F4200CC61CF /* UISearchBar+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 		B846C65128E958CB0089B6FC /* IKEA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B846C65428E958CB0089B6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B846C65628E958CB0089B6FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B846C65828E958CB0089B6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B846C65828E958CB0089B6FC /* RecentKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentKeywordViewController.swift; sourceTree = "<group>"; };
 		B846C65B28E958CB0089B6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B846C65D28E958CC0089B6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B846C66028E958CC0089B6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		B846C67528E958CC0089B6FC /* IKEAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAUITests.swift; sourceTree = "<group>"; };
 		B846C67728E958CC0089B6FC /* IKEAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B88B26F428F62C340089FED8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B892F42F28F85F4200CC61CF /* UISearchBar+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		B89EE52D28E961E9008FB278 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B892F42F28F85F4200CC61CF /* UISearchBar+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -174,7 +177,7 @@
 		B89EE52E28E961FC008FB278 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B846C65828E958CB0089B6FC /* ViewController.swift */,
+				B846C65828E958CB0089B6FC /* RecentKeywordViewController.swift */,
 				B808DEC728E9DDA10097D93D /* TabBarViewController.swift */,
 				B88B26F428F62C340089FED8 /* SearchViewController.swift */,
 			);
@@ -313,8 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88B26F528F62C340089FED8 /* SearchViewController.swift in Sources */,
+				B892F43028F85F4200CC61CF /* UISearchBar+.swift in Sources */,
 				B808DEC828E9DDA10097D93D /* TabBarViewController.swift in Sources */,
-				B846C65928E958CB0089B6FC /* ViewController.swift in Sources */,
+				B846C65928E958CB0089B6FC /* RecentKeywordViewController.swift in Sources */,
 				B846C65528E958CB0089B6FC /* AppDelegate.swift in Sources */,
 				B846C65728E958CB0089B6FC /* SceneDelegate.swift in Sources */,
 			);
