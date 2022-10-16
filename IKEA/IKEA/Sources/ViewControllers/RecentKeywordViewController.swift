@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RecentKeywordViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
